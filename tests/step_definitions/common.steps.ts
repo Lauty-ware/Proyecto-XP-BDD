@@ -1,7 +1,6 @@
-import { Given, When, Then } from '@cucumber/cucumber';
+import { Given } from '@cucumber/cucumber';
 import assert from 'assert';
 import { CustomWorld } from '../support/world';
-import { randomUUID } from 'crypto';
 
 Given(
   'que no existe un usuario con email {string}',
